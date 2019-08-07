@@ -10094,7 +10094,7 @@ COLOR CUSTOMIZER
   .r-header .r-header-strip {
     position: absolute;
     top: 44px;
-    z-index: 9999;
+    z-index: 9998;
     background: #ffcd00;
     width: 100%; }
     .r-header .r-header-strip .r-logo {
@@ -11576,7 +11576,7 @@ div.r-who-we-outer {
       top: -100px; }
   .r-get-in-touch .r-get-form {
     max-width: 830px;
-    margin: 75px auto 0;
+    margin: 30px auto 0;
     position: relative;
     z-index: 99; }
     .r-get-in-touch .r-get-form .clearfix .form-group, .r-get-in-touch .r-get-form .r-header .r-header-strip .r-nav-section nav .form-group, .r-header .r-header-strip .r-nav-section .r-get-in-touch .r-get-form nav .form-group, .r-get-in-touch .r-get-form .r-slider-item .r-slider-top-content ul .form-group, .r-slider-item .r-slider-top-content .r-get-in-touch .r-get-form ul .form-group, .r-get-in-touch .r-get-form .r-newsletter-suscribe form .form-group, .r-newsletter-suscribe .r-get-in-touch .r-get-form form .form-group, .r-get-in-touch .r-get-form .r-new-member .r-discounted-car .r-discount-single ul.r-car-point .form-group, .r-new-member .r-discounted-car .r-discount-single .r-get-in-touch .r-get-form ul.r-car-point .form-group, .r-get-in-touch .r-get-form .r-best-vehicles .r-best-vehicle-list .r-best-vehicle-single .r-best-vehicle-content > ul .form-group, .r-best-vehicles .r-best-vehicle-list .r-best-vehicle-single .r-get-in-touch .r-get-form .r-best-vehicle-content > ul .form-group, .r-get-in-touch .r-get-form .r-best-offer-list .r-best-offer-single ul .form-group, .r-best-offer-list .r-best-offer-single .r-get-in-touch .r-get-form ul .form-group, .r-get-in-touch .r-get-form .r-car-tabs .r-car-info-content ul .form-group, .r-car-tabs .r-car-info-content .r-get-in-touch .r-get-form ul .form-group, .r-get-in-touch .r-get-form .iw-content .r-best-offer-single ul .form-group, .iw-content .r-best-offer-single .r-get-in-touch .r-get-form ul .form-group {
@@ -15720,4 +15720,35 @@ padding-top:150px;
 }
 .p-50-0{
   padding:50px 0;
+}
+.p-20-0{
+  padding:20px 0;
+}
+.shareRide{
+  background: #fff !important;
+}
+.shareRide::before{
+  background: #f1f0ef  !important;
+}
+.r-get-in-touch.shareRide .form-group input {
+  float: left;
+  color: #fff;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  line-height: 60px;
+  padding: 0 25px;
+ background: #fff;
+  border: 1px solid rgba(51, 51, 51, 0.9); 
+  margin-bottom: 10px;
+}
+.r-get-in-touch.shareRide .r-get-form .form-group select {
+  float: left;
+  color: #757575;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  /* line-height: 60px; */
+  padding: 15px 25px;
+  background: #fff;
+  border: 1px solid rgba(51, 51, 51, 0.9);
+  margin-bottom: 10px;
 }
